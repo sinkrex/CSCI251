@@ -20,3 +20,10 @@ Procedural Program consists of routines, subroutines or functions are declared i
 Java every methold needs to be in a class, C++ you cna have stand alone functions
 Java applications the main() function is a static public member of a Runnable class
 C++ programs must have a stand alone main() function, that should return an integer, specifically an int, to the operating system
+Argument -> Function -> Return Value
+header - description of people have written already
+<< inseration operator
+endl - new line and flushes buffer
+literal have explicit fixed value
+output chaining - 
+namespace std  - functionalities inside indclude library
