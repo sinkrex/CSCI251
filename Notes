@@ -17,3 +17,6 @@ C++  - word file -> compiler -> Object File (binary) -> Linker (linkss to other 
 Procedural Programming we typically focus on a fairly specifc aim, end result
 Object Oriented can be used for many different cases.
 Procedural Program consists of routines, subroutines or functions are declared independent of the main program.
+Java every methold needs to be in a class, C++ you cna have stand alone functions
+Java applications the main() function is a static public member of a Runnable class
+C++ programs must have a stand alone main() function, that should return an integer, specifically an int, to the operating system
