@@ -1,1 +1,19 @@
-N
+Programming- Writing instrucitons for a computer with the purpose of getting to perform required tasks.
+Instructions are wwritten in aprogramming language which has a specified syntax.
+Control Structures - using the results of test to determine where we go inside a particular program
+Imperative Programming - specifying instructions as to how something is done.
+Declarative Programming - specifying what the program should achieve.
+Imperative Programming:
+-Procedural Programming - Modularity, Scope, Black Box
+-Object Oriented Programming - Object, Classes, Java
+-Generic Programming - Templates, Parameterized Types
+Java is used for implementing client server web applicaitons, platform independent
+C++ is used for desktop applications and systems programming and application prgramming.
+Compiler - Converts User Code to Machine Language
+Java is good for standardization, safety and web programming, but less powerful as it has more layers
+JVM manages resources.
+.java -> .class (bytecode) -> turns it into native machine code
+C++  - word file -> compiler -> Object File (binary) -> Linker (linkss to other object file) -> Executable File -> Loader
+Procedural Programming we typically focus on a fairly specifc aim, end result
+Object Oriented can be used for many different cases.
+Procedural Program consists of routines, subroutines or functions are declared independent of the main program.
