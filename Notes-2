@@ -1,0 +1,20 @@
+Cannot nest comments
+Primitive data types - int, double, char
+Signed or Unsigned - positive,negative, neutral
+All statements have return value.
+Primitive data types have a one to one relationship with memory
+Pointers are variables that contain addresses
+Void functions- means they have no return value
+Functions need to be declared before main function
+Declaraing a function - Function Header 
+Defining a function - Function Header with content inside it.
+Function prototypes you want to access in other files must be declared as .h
+Defining declarations go in the inplementation file, such as print.cpp
+Dont put using NAMESPACE STD in include files
+Pointers can point to Addresses, Variables, Null
+To get the address of something we use the address of operator &
+cout << &value << end - output the address
+referneceValue is an alias, not an objec
+pointers are not aliases, ther are actual objects.
+* is a dereferencing operarator tied to a variable name.
+compund types are terms defined by other types
