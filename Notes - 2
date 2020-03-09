@@ -18,3 +18,4 @@ referneceValue is an alias, not an objec
 pointers are not aliases, ther are actual objects.
 * is a dereferencing operarator tied to a variable name.
 compund types are terms defined by other types
+gcc - c f1.cpp - of1.0
