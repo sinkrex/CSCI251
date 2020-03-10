@@ -15,12 +15,15 @@ Function prototypes you want to access in other files must be declared as .h
 Defining declarations go in the inplementation file, such as print.cpp
 Dont put using NAMESPACE STD in include files
 
-Primitive Types map directly into memory
+Primitive Types mapped directly into memory
 Pointers can point to Addresses, Variables, Null 
 To get the address of something we use the address of operator &
 cout << &value << end - output the address
-referneceValue is an alias, not an objec
+referneceValue is an alias, not an object
+function can pass value in two ways: by value and by reference
+when calling a function, ailing arguments can be omitted if default values are declared in the funciton parameters
 pointers are not aliases, ther are actual objects.
 * is a dereferencing operarator tied to a variable name.
+pointer can point nowehere by setting to 0 or nullptr;
 compund types are terms defined by other types
 gcc - c f1.cpp - of1.0
