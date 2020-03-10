@@ -26,4 +26,6 @@ pointers are not aliases, ther are actual objects.
 * is a dereferencing operarator tied to a variable name.
 pointer can point nowehere by setting to 0 or nullptr;
 compund types are terms defined by other types
-gcc - c f1.cpp - of1.0
+[] is referd to as subscripting
+const - constant
+
