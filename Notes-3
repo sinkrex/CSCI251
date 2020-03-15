@@ -1,0 +1,4 @@
+"x" = 'x'\0
+arrays are by default passed by reference
+Multidemensional arrays 
+A[] = &A[0]
