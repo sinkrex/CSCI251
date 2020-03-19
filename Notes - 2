@@ -19,13 +19,22 @@ Primitive Types mapped directly into memory
 Pointers can point to Addresses, Variables, Null 
 To get the address of something we use the address of operator &
 cout << &value << end - output the address
+int &refernceValue = value - stores adddress
 referneceValue is an alias, not an object
 function can pass value in two ways: by value and by reference
-when calling a function, ailing arguments can be omitted if default values are declared in the funciton parameters
+when calling a function, tailing arguments can be omitted if default values are declared in the funciton parameters
 pointers are not aliases, ther are actual objects.
+int value
+int *ptr
+ptr = &value
 * is a dereferencing operarator tied to a variable name.
-pointer can point nowehere by setting to 0 or nullptr;
+pointer can point nowehere by setting to 0 or NULL;
+nullptr is a literal that can be converted to any other poiter type/
 compund types are terms defined by other types
 [] is referd to as subscripting
 const - constant
-
+int psotCode[4] = {0} - to initialise all four locations to 0
+character arrays can be initialized using a string literal, and they end with a null character \0
+arrays are by default pased by refernce
+int A;
+int *B = &A;
