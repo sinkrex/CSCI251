@@ -1,4 +1,6 @@
-"x" = 'x'\0
-arrays are by default passed by reference
-Multidemensional arrays 
-A[] = &A[0]
+Dynamic memory allocation is carried out by using a special type of operator that directly communicate with the Memory Manager
+Stack - variable withing the liemtime of the prrgam
+Heap Memory - Allocation of this memory is at run-time, and use of this memory 
+is persistent so we need to explicitly say when we want to stop using it
+
+intpointer = new int - declare momory in heap
