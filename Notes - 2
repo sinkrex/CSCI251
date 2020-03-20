@@ -38,3 +38,12 @@ character arrays can be initialized using a string literal, and they end with a 
 arrays are by default pased by refernce
 int A;
 int *B = &A;
+sizeof(value) - size in bytes the type, variable or pointer occupies.
+pointers can be used to refer to functions, call functions, pass fucntoins as arguments ot other functions
+however pointer aritmetic cannot be performed
+pointer to fucniton (*f)(int, int)
+Pointers to functions have types associated with both the return type and the parameter types of function
+A common use of a function pointer is to pass it as an argument to another function
+vector<int> intArray( size );
+void pointer is used to hold the address of any type, but without the type being held being known
+If we are access to access the content of the memory a void Pointer addresses, we need to type cast it first
