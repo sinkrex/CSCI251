@@ -1,0 +1,12 @@
+The pre-processor takes pre-processor directives and applies them prior to the object code being generated, and then linked.
+– Source file inclusion: #include
+– Macro definition/replacement: #define
+– Conditional compilation: #ifndef, #ifdef, #else, #endif
+Use of the preprocessor:
+– Can make the code easier to develop, read, and modify.
+– Can make the C/C++ code portable, via conditional compilation, among different platforms.
+– The #define, #ifdef, and #ifndef directives are sometimes referred to as header guards.
+Definitions are often only allowed to be made once
+To do this we use #define, which generally specifies a pre-processor variable used in the text of our program prior to the
+rest of the compilation
+Combined with #ifndef and #endif we can avoid multiple inclusion
