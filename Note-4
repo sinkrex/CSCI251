@@ -1,0 +1,45 @@
+The struct:This is a special kind of class so it’s not overly exciting.
+The union: This is special kind of class too, but a more limited one.
+
+ A struct differs only from a class in that the access specifiers default to public whereas in classes they default to private.
+ 
+ A struct declaration ends with a semi-colon (;)
+ 
+s1.id = 123;
+s2.id = s1.id + 1;
+s1 = s2; // copies fields of s2 to s1
+
+It’s possible to have instances of structs inside structs
+
+The problem with putting member functions in Structs is that unless you remember to add in access specifiers
+people don’t have to use the interface you provide, the data is public by default
+
+Static const you can only declare and initialise it in a struct, or class, if it’s of integral or enumeration type
+A union declaration is similar to a struct declaration, but the
+fields of a union all share the same memory
+
+srand(time(0));
+rand().....at least 32767
+
+Seeding is setting a start point/initial point for our sequence
+
+default_random_engine randEng
+uniform_int_distribution<unsigned> uniform(0,9);
+uniform(randEng)
+randEng()
+
+normal_distribution<> normal(mean,deviation);
+lround - round to nearedt integer
+
+randEng construction isn’t in a loop
+
+If you have a local generator function, which sets up the range and distribution type, you should declare
+both the engine and distribution as being static
+
+time(0) is pridictible and the same for the same time
+
+time_t result = std::time(nullptr);
+std::asctime(std::localtime(&result)); - system time
+std::asctime(std::localtime(&result)) - local time
+
+this_thread::sleep_for(std::chrono::seconds(2));
