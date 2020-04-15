@@ -10,3 +10,26 @@ Definitions are often only allowed to be made once
 To do this we use #define, which generally specifies a pre-processor variable used in the text of our program prior to the
 rest of the compilation
 Combined with #ifndef and #endif we can avoid multiple inclusion
+Macros are a major sourc eof bugs, macros dont obey the usual scope and type rules. macro dont obey the usual rules of
+argument passing. Macros ensure that the human reader sees something different from what the compiler sees
+the keyword extern is used to indicate a variable has been defined elsewhere, its not used in the original
+this is useful if we use a variable in file A, when it was defined in file B
+Debugging MACROS:
+__TIME__ : The time the source file was compiled, a string literal of the form hh:mm:ss.
+__DATE__ : Similar but it substitutes the date, again as a string literal.
+__LINE__ : Expands to the current source line number, an integer.
+__FILE__ : The name of the file being compiled, as a string.
+__func__ : The name of the function being debugged.
+
+They can be undefined using #undef MACRO
+
+g++ –DDEBUG code.cpp
+You could set the DEBUG variable on in the code too but it’s tidier using the command line compilation time version
+
+assert(expr) is used to check for conditions that cannot happen 
+If the expr given to assert is false, and we are in debug mode, assert writes a message and terminates the program
+
+We do something similar but use the preprocessor variable NDEBUG, which assert references
+
+
+
