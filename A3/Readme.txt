@@ -1,0 +1,1 @@
+g++ A3.cpp libGenerate.a -o KAP 

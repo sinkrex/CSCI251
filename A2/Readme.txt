@@ -1,0 +1,1 @@
+g++ APE.cpp Main.cpp APE.h -o APE
