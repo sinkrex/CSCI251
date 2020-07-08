@@ -1,0 +1,1 @@
+g++ RAT.cpp Main.cpp RAT.h -o RAT
